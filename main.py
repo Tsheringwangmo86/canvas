@@ -345,6 +345,179 @@ canvas.create_arc(
 )
 
 # -----------------------------
+# DOG HOUSE
+# -----------------------------
+
+# Dog house body
+canvas.create_rectangle(
+    690, 400, 850, 520,
+    fill="#D99A6C",
+    outline="#70452F",
+    width=4
+)
+
+# Dog house roof
+canvas.create_polygon(
+    675, 400,
+    770, 320,
+    865, 400,
+    fill="#B94E48",
+    outline="#6E2925",
+    width=4
+)
+
+# Dog house entrance
+canvas.create_oval(
+    735, 430, 805, 510,
+    fill="#4A3025",
+    outline="#3A241C",
+    width=3
+)
+
+# Small step
+canvas.create_rectangle(
+    730, 505, 810, 520,
+    fill="#8B5A3C",
+    outline="#5C3825",
+    width=3
+)
+
+# -----------------------------
+# SMALL DOG HOUSE
+# -----------------------------
+
+# Dog house body
+canvas.create_rectangle(
+    720, 430, 830, 515,
+    fill="#D99A6C",
+    outline="#70452F",
+    width=3
+)
+
+# Dog house roof
+canvas.create_polygon(
+    705, 430,
+    775, 370,
+    845, 430,
+    fill="#B94E48",
+    outline="#6E2925",
+    width=3
+)
+
+# Entrance
+canvas.create_oval(
+    750, 455, 800, 515,
+    fill="#4A3025",
+    outline="#3A241C",
+    width=2
+)
+
+# Small step
+canvas.create_rectangle(
+    745, 510, 805, 520,
+    fill="#8B5A3C",
+    outline=""
+)
+
+
+# -----------------------------
+# SMALL CUTE DOG
+# -----------------------------
+
+# Body
+canvas.create_oval(
+    585, 540, 655, 580,
+    fill="#C68642",
+    outline="#6B4226",
+    width=2
+)
+
+# Head
+canvas.create_oval(
+    625, 505, 680, 550,
+    fill="#C68642",
+    outline="#6B4226",
+    width=2
+)
+
+# Ears
+canvas.create_oval(
+    620, 505, 640, 535,
+    fill="#8B5A2B",
+    outline=""
+)
+
+canvas.create_oval(
+    665, 505, 685, 535,
+    fill="#8B5A2B",
+    outline=""
+)
+
+# Eyes
+canvas.create_oval(
+    638, 520, 645, 527,
+    fill="black",
+    outline=""
+)
+
+canvas.create_oval(
+    660, 520, 667, 527,
+    fill="black",
+    outline=""
+)
+
+# Nose
+canvas.create_oval(
+    648, 535, 658, 543,
+    fill="black",
+    outline=""
+)
+
+# Tongue
+canvas.create_oval(
+    649, 542, 657, 553,
+    fill="#F08080",
+    outline=""
+)
+
+# Front legs
+canvas.create_rectangle(
+    600, 570, 612, 600,
+    fill="#C68642",
+    outline="#6B4226",
+    width=1
+)
+
+canvas.create_rectangle(
+    630, 570, 642, 600,
+    fill="#C68642",
+    outline="#6B4226",
+    width=1
+)
+
+# Paws
+canvas.create_oval(
+    596, 592, 614, 602,
+    fill="#8B5A2B",
+    outline=""
+)
+
+canvas.create_oval(
+    626, 592, 644, 602,
+    fill="#8B5A2B",
+    outline=""
+)
+
+# Tail
+canvas.create_arc(
+    565, 530, 605, 565,
+    start=60,
+    extent=220,
+    style=tk.ARC,
+    width=5
+)
+
+# -----------------------------
 # START
 # -----------------------------
 root.mainloop()
